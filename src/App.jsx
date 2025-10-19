@@ -41,13 +41,7 @@ export default function App() {
 
 			{/*
 				Reflection (5–7 sentences):
-				- The easiest component was the List because its API is straightforward.
-				- The hardest was the DataGrid due to configuring sorting and pagination.
-				- Cards present concise overviews and clear actions, improving scannability.
-				- Badges provide quick notification context without navigating away.
-				- Avatars aid recognition and reduce cognitive load in user lists.
-				- Accordions help keep content dense yet accessible, reducing page clutter.
-				- Together, these patterns enhance usability and help users act faster.
+				The AvatarWithBadge component was the easiest to implement due to its simple API - just wrapping an Avatar with a Badge component and specifying the badge content. The DataTable component was the most challenging because it required configuring multiple complex features like pagination, sorting, and column definitions, making it more prone to configuration errors and requiring deeper understanding of the DataGrid API. These components significantly enhance real-world applications by improving information hierarchy and user interaction patterns. The ProfileCard provides a clean, scannable way to present user information with clear action buttons, reducing cognitive load when browsing profiles or team members. The ListWithAvatars component aids quick user recognition through visual avatars while maintaining compact information density. The AvatarWithBadge offers immediate notification context without requiring navigation, helping users prioritize their attention. Together, these patterns create intuitive interfaces that help users process information faster and take actions more efficiently.
 			*/}
 		</Container>
 	);

@@ -8,7 +8,7 @@ export default function ProfileCard() {
 		<Card sx={{ maxWidth: 345 }}>
 			<CardHeader
 				avatar={<Avatar sx={{ bgcolor: red[500] }} aria-label="profile">J</Avatar>}
-				title="Jane Doe"
+				title="Nico Robin"
 				subheader="Product Manager"
 			/>
 			<CardMedia
